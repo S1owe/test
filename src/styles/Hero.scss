@@ -1,0 +1,146 @@
+.hero_component {
+  width: 100px;
+  height: 100px;
+  background: 50% 50%;
+  background-size: cover;
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero_add_back {
+  z-index: -1;
+  width: 0;
+  height: 0;
+}
+
+.heroAllContainer {
+  position: absolute;
+}
+
+.hero_component_health {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 16px;
+  font-size: 14px;
+  border: 2px solid black;
+  background-color: rgba(57, 57, 57, 0.51);
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 55px;
+}
+
+.hero_component_guard_cont {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 2px;
+  right: 2px;
+}
+
+.hero_component_guard {
+  background-size: 100% 100%;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+
+.hero {
+  position: absolute;
+  transition: 0.5s linear;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.blockGridContainer_zIndex {
+  z-index: 100;
+}
+
+
+.heroBlock {
+  z-index: 2;
+}
+
+.blockGridContainer {
+  z-index: 1;
+}
+
+.gridMode {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(32, 215, 0, 0.31);
+//  z-index: 1;
+}
+
+#gridMode_0 {
+  top: -100px;
+  left: -100px;
+}
+
+#gridMode_1 {
+  top: -100px;
+  left: 0;
+}
+
+#gridMode_2 {
+  top: -100px;
+  left: 100px;
+}
+
+#gridMode_3 {
+  top: 0;
+  left: -100px;
+}
+
+#gridMode_4 {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 102, 204, 0.31);
+}
+
+.gridMode_opponents {
+  top: 0;
+  left: 0;
+  background-color: rgba(204, 0, 8, 0.60);
+}
+
+.gridMode_opponentsUp {
+  background-color: rgba(215, 0, 192, 0);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#gridMode_5 {
+  top: 0;
+  left: 100px;
+}
+
+#gridMode_6 {
+  top: 100px;
+  left: -100px;
+}
+
+#gridMode_7 {
+  top: 100px;
+  left: 0;
+}
+
+#gridMode_8 {
+  top: 100px;
+  left: 100px;
+}
+
+.heroBlock {
+  z-index: 2;
+}
+
+.blockGridContainer {
+  z-index: 1;
+}

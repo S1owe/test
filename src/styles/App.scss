@@ -1,0 +1,13 @@
+$color: red;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    h1 {
+        color: $color;
+        text-align: center;
+    }
+}

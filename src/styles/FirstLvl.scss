@@ -1,0 +1,103 @@
+.level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#map {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+
+.blockGridContainer_zIndex {
+  z-index: 100;
+}
+
+.hero {
+  position: absolute;
+  transition: 0.5s linear;
+  cursor: pointer;
+}
+
+.heroBlock {
+  z-index: 2;
+}
+
+.blockGridContainer {
+  z-index: 1;
+}
+
+.gridMode {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(32, 215, 0, 0.31);
+}
+
+#gridMode_0 {
+  top: -100px;
+  left: -100px;
+}
+
+#gridMode_1 {
+  top: -100px;
+  left: 0;
+}
+
+#gridMode_2 {
+  top: -100px;
+  left: 100px;
+}
+
+#gridMode_3 {
+  top: 0;
+  left: -100px;
+}
+
+#gridMode_4 {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 102, 204, 0.31);
+}
+
+.gridMode_opponents {
+  top: 0;
+  left: 0;
+  background-color: rgba(204, 0, 8, 0.60);
+}
+
+.gridMode_opponentsUp {
+  background-color: rgba(215, 0, 192, 0);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#gridMode_5 {
+  top: 0;
+  left: 100px;
+}
+
+#gridMode_6 {
+  top: 100px;
+  left: -100px;
+}
+
+#gridMode_7 {
+  top: 100px;
+  left: 0;
+}
+
+#gridMode_8 {
+  top: 100px;
+  left: 100px;
+}
+*/

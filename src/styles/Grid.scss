@@ -1,0 +1,12 @@
+.grid_component {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.grid_el {
+  width: 98px;
+  height: 98px;
+  border: 1px solid rgba(0, 0, 0, 0.51);
+}

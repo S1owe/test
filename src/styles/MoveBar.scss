@@ -1,0 +1,126 @@
+
+.info_container {
+  height: 60px;
+  background-color: #393939;
+  border-right: 2px solid rgba(0, 0, 0, 0.51);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.51);
+  border-left: 2px solid rgba(0, 0, 0, 0.51);
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .info_hero_logo {
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+  }
+
+  .info_btn_cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info_hero_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+
+    .move_btn_container {
+      display: flex;
+      flex-direction: row;
+      margin: 0 0 0 auto;
+    }
+
+    .btn_component {
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      border: 2px solid #fff;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.5s ease;
+
+      .attack_btn {
+        background-size: cover;
+        background-position: center;
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    .btn_component:hover {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  .info_hero_params_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info_hero_params_row {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: 16px;
+    justify-content: center;
+
+    .info_hero_params {
+      display: flex;
+      flex-direction: row;
+      margin: 5px 0;
+    }
+
+    .info_hero_params_text {
+      margin-right: 5px;
+    }
+  }
+
+  .info_btn_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 340px;
+
+    .timer_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      font-size: 16px;
+      text-align: center;
+      border: 2px solid white;
+      height: 36px;
+      margin-left: 20px;
+    }
+
+    .btn_Move {
+      font-size: 16px;
+      border: 2px solid #fff;
+      width: 180px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s ease;
+    }
+
+    .btn_Move:hover {
+      cursor: pointer;
+      background-color: #fff;
+      color: #373737;
+    }
+  }
+}
+
+
